@@ -1,6 +1,5 @@
 package deployment.githubActions.basic;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,5 +13,10 @@ public class BasicController {
     @GetMapping("/changho")
     public String test2(){
         return "fail?!";
+    }
+
+    @GetMapping("/test")
+    public String test3(){
+        return "<h1>test successful</h1>";
     }
 }
