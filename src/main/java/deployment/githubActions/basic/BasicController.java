@@ -11,4 +11,8 @@ public class BasicController {
     public String test(){
         return "success?!";
     }
+    @GetMapping("/changho")
+    public String test2(){
+        return "fail?!";
+    }
 }
