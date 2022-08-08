@@ -8,15 +8,11 @@ public class BasicController {
 
     @GetMapping("/sungmin")
     public String test(){
-        return "success?!";
+        return "sungmin?!";
     }
     @GetMapping("/changho")
     public String test2(){
-        return "fail?!";
+        return "changho?!";
     }
 
-    @GetMapping("/test")
-    public String test3(){
-        return "<h1>test successful</h1>";
-    }
 }
